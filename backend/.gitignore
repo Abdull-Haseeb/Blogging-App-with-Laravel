@@ -1,0 +1,39 @@
+# Laravel specific
+/vendor
+.env
+
+# User-specific files
+/.idea
+/.vscode
+Homestead.json
+Homestead.yaml
+
+# Logs and backups
+/storage/*.log
+/public/storage
+/public/hot
+/storage/*.sql
+/storage/*.sql.gz
+
+# Environment specific
+.env.*.php
+.env.php
+.env
+
+# Server specific
+# Since each server has different settings, ignore the server's configuration
+.phpunit.result.cache
+/nova-api/vendor
+
+# Laravel Mix
+/node_modules
+/public/mix-manifest.json
+/public/css
+/public/js
+
+# Testing
+/tmp
+.phpunit.result.cache
+
+# Homestead
+/.vagrant
